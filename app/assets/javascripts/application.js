@@ -10,7 +10,8 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+//= require_tree ./extjs/app/model
+//= require_tree ./extjs/app/store
+//= require_tree ./extjs/app/view
+//= require_tree ./extjs/app/controller
+//= require ./extjs/app.js.erb

@@ -10,7 +10,7 @@
                 "width": null
             }
         },
-        "urlPrefix": "http://localhost:3001/",
+        "urlPrefix": "",
         "exportPath": "/home/jean/workspace/extjs-rails4/public",
         "buildShouldOverwriteIndex": true,
         "generateArchitectVersion": true,

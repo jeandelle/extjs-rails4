@@ -2,13 +2,17 @@
 <html>
 <head>
   <title>ExtjsRails4</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" href="http://cdn.sencha.com/ext/gpl/4.2.1/packages/ext-theme-neptune/build/resources/ext-theme-neptune-all.css">
+  <%= javascript_include_tag "http://cdn.sencha.com/ext/gpl/4.2.1/ext-all#{ '-debug' if Rails.env.development? }.js",
+                             "http://cdn.sencha.com/ext/gpl/4.2.1/ext-theme-neptune.js",
+                             'application' %>
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+  <link rel="stylesheet" href="http://cdn.sencha.com/ext/gpl/4.2.1/packages/ext-theme-neptune/build/resources/ext-theme-neptune-all.css">
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<%# yield %>
 
 </body>
 </html>
