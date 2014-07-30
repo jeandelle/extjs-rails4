@@ -10,7 +10,7 @@
                 "width": null
             }
         },
-        "urlPrefix": "http://localhost:3000/",
+        "urlPrefix": "http://localhost:3001/",
         "exportPath": "/home/jean/workspace/extjs-rails4/public",
         "buildShouldOverwriteIndex": true,
         "generateArchitectVersion": true,
@@ -20,7 +20,8 @@
         "cacheBust": false,
         "displayfield-ExtBox1-1861-inputEl": "Not Installed",
         "displayfield-ExtBox1-1911-inputEl": "Not Installed",
-        "displayfield-ExtBox1-1961-inputEl": "Not Installed"
+        "displayfield-ExtBox1-1961-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1274-inputEl": "Not Installed"
     },
     "xdsVersion": "3.0.4",
     "xdsBuild": 1386,
